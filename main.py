@@ -1,4 +1,19 @@
+from classes.myclass import MyClass
 
+
+def myFunction():
+    print("THIS IS A FUNCTION")
+
+
+def myFunction2():
+    print("THIS IS A FUNCTION22222222222222222222222222222222222222")
+
+
+def add(x, y):
+    return x + y
+
+
+print(add(5, 1))
 # System.out.print("Hello World")
 print("Hello World")
 
@@ -53,4 +68,17 @@ print(myList[2])
 for i in myList:
     print(i)
 
+aString = "A Magic String"
 
+print(aString[3:10])
+print(aString[3:10:2])
+print(aString[2])
+print(aString.upper())
+print(aString.lower())
+
+myFunction()
+myFunction2()
+
+zzz = MyClass()
+
+zzz.messageMe()
