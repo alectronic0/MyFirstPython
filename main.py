@@ -1,4 +1,7 @@
 from classes.myclass import MyClass
+import math
+import os
+import sys
 
 
 def myFunction():
@@ -11,6 +14,17 @@ def myFunction2():
 
 def add(x, y):
     return x + y
+
+def print_lines():
+    print("oooooo babe babe")
+    print("oooooo babe babe")
+
+def printtwice(bruce):
+    print(bruce)
+    print(bruce)
+
+
+print(os.open(".",))
 
 
 print(add(5, 1))
@@ -79,6 +93,25 @@ print(aString.lower())
 myFunction()
 myFunction2()
 
-zzz = MyClass()
+zzz = MyClass("cake")
 
 zzz.messageMe()
+
+
+print(type(aString)==type(aString))
+
+print(str(int('11')+one))
+
+print(aString + " " + str(one))
+
+print(str(math.pi * 10))
+
+print(math)
+print(type(math))
+
+print_lines()
+print(type(print_lines()))
+
+printtwice('17')
+
+exit(0)
